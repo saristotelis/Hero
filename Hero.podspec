@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name              = 'Hero'
-  s.version           = '1.6.2'
+  s.version           = '1.7.0'
   s.summary           = 'Elegant transition library for iOS'
 
   s.description       = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                         Making custom transitions an easy task for developers.
   DESC
 
-  s.homepage          = 'https://github.com/HeroTransitions/Hero'
+  s.homepage          = 'https://github.com/saristotelis/Hero'
   s.screenshots       = 'https://github.com/HeroTransitions/Hero/blob/master/Resources/Hero.png?raw=true'
   s.documentation_url = 'https://herotransitions.github.io/Hero/'
   s.screenshots       = ['https://git.io/JeRkv', 'https://git.io/JeRke', 'https://git.io/JeRkf', 'https://git.io/JeRkJ']
@@ -20,17 +20,17 @@ Pod::Spec.new do |s|
     'Luke' => 'lzhaoyilun@gmail.com',
     'Joe Mattiello' => 'git@joemattiello.com'
   }
-  s.source           = { git: 'https://github.com/HeroTransitions/Hero.git', tag: s.version.to_s }
+  s.source           = { git: 'https://github.com/saristotelis/Hero.git', tag: s.version.to_s }
 
   s.cocoapods_version = '>= 1.4.0'
 
-  s.ios.deployment_target = '10.0'
-  s.tvos.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
+  s.tvos.deployment_target = '14.0'
 
   s.ios.frameworks = 'UIKit', 'Foundation', 'QuartzCore', 'CoreGraphics', 'CoreMedia'
   s.tvos.frameworks = 'UIKit', 'Foundation', 'QuartzCore', 'CoreGraphics', 'CoreMedia'
 
-  s.swift_version = '5.0'
+  s.swift_version = '5.1'
 
   s.requires_arc = true
 
